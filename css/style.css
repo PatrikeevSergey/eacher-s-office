@@ -1,0 +1,48 @@
+﻿body {
+	margin: 0;
+    padding: 0 0 1px;
+	background: url('../img/bg1.jpg');
+	background-color: #FFFDCA;
+	background-repeat: repeat-x;
+	border: #000000;
+	
+}
+
+#ped{
+	margin: 10%;
+    padding: 0 0 1px;
+	font: normal bold 40px Arial;
+	color:#4EB7D7;	
+	text-align: center;
+	margin: 20px auto 15px auto;
+    width: 70%;
+  }
+
+#center {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	text-align: center;
+	top: 45%; 
+	left: 30%; 
+	width: 80%; 
+	height: auto; 
+	position: absolute; 
+	margin-top: -17%; 
+	margin-left: -17%; 
+}
+#info {
+	font-size: 25px;
+	color: #1724D0;
+	padding:  20px 30px;
+}
+
+p::selection {
+     color: #ffe; 
+    background: #000080; 
+
+
+p::-moz-selection {
+    color: #ffe;
+    background: #000080; 
+} 
+
+
